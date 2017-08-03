@@ -99,7 +99,7 @@ def filled_image(image,x_border,y_border):
                         break
 
                 if (left and right) or (top and down):
-                    image[i][j]=2550
+                    image[i][j]=255
 def retrive_digits(fileName, flatten=True):
     img = cv2.imread(fileName)
     #gray = grayify(img)
